@@ -1,6 +1,6 @@
 # EncodingName
 
-Normalizer of encoding name for Crystal (to use it in crystal internal encoding)
+Normalizer of encoding name for Crystal (to use it in crystal internal encoder-decoder)
 
 ## Installation
 
