@@ -1,0 +1,11 @@
+name: encoding_name
+version: 0.1.0
+
+authors:
+  - Konstantin Makarchev <kostya27@gmail.com>
+
+dependencies:
+  jaro_winkler:
+    github: kostya/jaro_winkler
+
+license: MIT
