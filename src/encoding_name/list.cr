@@ -9,7 +9,7 @@ class EncodingName
   ListChars = ListH.map { |k, _| k.chars }
 
   Aliases = {
-  	"unicode" => "UTF-8",
-  	"ansi" => "ISO-8859-1"
+    "unicode" => "UTF-8",
+    "ansi"    => "ISO-8859-1",
   }
 end
