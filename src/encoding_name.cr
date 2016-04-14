@@ -3,6 +3,8 @@ require "./encoding_name/*"
 class EncodingName
   VERSION = "0.1"
 
+  @name : String
+
   def initialize(name : String, @find_similar = false)
     @original_name = name
     @name = name.strip.downcase
