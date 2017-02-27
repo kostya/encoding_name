@@ -9,15 +9,15 @@ def ns(name)
 end
 
 CASES = {"utf-8" => "UTF-8", "utf8" => "UTF8",
-  "koi8-r" => "KOI8-R", "koi8-u" => "KOI8-U",
-  "iso-8859-5" => "ISO-8859-5", "iso8859-5" => "ISO8859-5",
-  "iso-8859-1" => "ISO-8859-1", "iso8859-1" => "ISO8859-1",
-  "cp866" => "CP866", "cp-866" => "CP866", "ibm866" => "IBM866", "ibm-866" => "IBM866",
-  "euc-jp" => "EUC-JP", "us-ascii" => "US-ASCII", "iso-8859-2" => "ISO-8859-2",
-  "iso-8859-7" => "ISO-8859-7", "shift_jis" => "SHIFT_JIS", "tis-620" => "TIS-620",
-  "windows-874" => "WINDOWS-874", "WIN-1251" => "CP1251", "ISO-8859-1" => "ISO-8859-1",
-  "Windows-1254" => "WINDOWS-1254", "tis-620" => "TIS-620", "windows-874" => "WINDOWS-874",
-  "cp_1251" => "CP1251",
+         "koi8-r" => "KOI8-R", "koi8-u" => "KOI8-U",
+         "iso-8859-5" => "ISO-8859-5", "iso8859-5" => "ISO8859-5",
+         "iso-8859-1" => "ISO-8859-1", "iso8859-1" => "ISO8859-1",
+         "cp866" => "CP866", "cp-866" => "CP866", "ibm866" => "IBM866", "ibm-866" => "IBM866",
+         "euc-jp" => "EUC-JP", "us-ascii" => "US-ASCII", "iso-8859-2" => "ISO-8859-2",
+         "iso-8859-7" => "ISO-8859-7", "shift_jis" => "SHIFT_JIS", "tis-620" => "TIS-620",
+         "windows-874" => "WINDOWS-874", "WIN-1251" => "CP1251", "ISO-8859-1" => "ISO-8859-1",
+         "Windows-1254" => "WINDOWS-1254", "tis-620" => "TIS-620", "windows-874" => "WINDOWS-874",
+         "cp_1251" => "CP1251",
 }
 
 SIMILAR = {
@@ -33,17 +33,17 @@ ALIASES = {
 }
 
 MISTAKES = {"uft8" => "UTF8", "uft-8" => "UTF-8", "utf" => "UTF8",
-  "urf-8" => "UTF-8", "windows 1251" => "CP1251", "coi8-r" => "KOI8-R",
-  "koi8-ru" => "KOI8-RU", "windows-cp1251" => "WINDOWS-1251",
-  "windos-1251" => "WINDOWS-1251",
-  "window-1251" => "WINDOWS-1251", "(UTF-8)" => "UTF-8",
-  "utf-8,text/html" => "UTF-8", "pc1251" => "CP1251",
-  "'UTF-8'" => "UTF-8", "utf-8; dir=rtl" => "UTF-8",
+            "urf-8" => "UTF-8", "windows 1251" => "CP1251", "coi8-r" => "KOI8-R",
+            "koi8-ru" => "KOI8-RU", "windows-cp1251" => "WINDOWS-1251",
+            "windos-1251" => "WINDOWS-1251",
+            "window-1251" => "WINDOWS-1251", "(UTF-8)" => "UTF-8",
+            "utf-8,text/html" => "UTF-8", "pc1251" => "CP1251",
+            "'UTF-8'" => "UTF-8", "utf-8; dir=rtl" => "UTF-8",
 }
 
 NOTHING = {"aasdfadsfd" => nil, "charset=utf-8" => nil,
-  "urFI" => nil, "asfd" => nil, "" => nil, "a" => nil, "_" => nil,
-  "_crap" => nil,
+           "urFI" => nil, "asfd" => nil, "" => nil, "a" => nil, "_" => nil,
+           "_crap" => nil,
 }
 
 describe EncodingName do
